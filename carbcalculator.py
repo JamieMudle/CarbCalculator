@@ -18,6 +18,7 @@ def CarbCalculator():
 
         result = round(xx / yy * zz, 1)
         print(result)
+    #Error Handling
     except:
         print("Error:Please enter a numerical value")
 CarbCalculator()
