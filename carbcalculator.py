@@ -1,14 +1,13 @@
 #def CarbCalculator function
 
 def CarbCalculator():
-
+    
     #Setting vars for carb input
     try:
         x = input("Enter Listed Carbs:")
         y = input("Enter Product Weight:")
         z = input("Enter Portion Size:")
-    
-
+        
         #Setting vars for carb calculation
 
         xx = float(x)
@@ -20,5 +19,5 @@ def CarbCalculator():
         result = round(xx / yy * zz, 1)
         print(result)
     except:
-        print("Please enter a numerical value")
+        print("Error:Please enter a numerical value")
 CarbCalculator()
