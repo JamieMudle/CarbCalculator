@@ -7,7 +7,7 @@ def CarbCalculator():
         db_connection = mysql.connector.connect(
             host='localhost',
             user='Jamie',
-            password='Kn1ghtK1ller45!',
+            password='*********',
             database='carbscollector'
         )
 
